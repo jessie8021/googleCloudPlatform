@@ -1,0 +1,6 @@
+In Spark, a DataFrame is a distributed collection of data organized into
+named columns. Users cam use DataFrame API to perform various relational
+perations on both external data sources and Spark's built-in distributed
+collections without providing specific procedures for processing data. Also,
+programs based on DataFrame API will be automatically optimized by Spark's
+built-in optimizer, Catalyst.
