@@ -1,0 +1,70 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "serviceAccount:service-101571298493@gcp-sa-automl.iam.gserviceaccount.com"
+      ],
+      "role": "roles/automl.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:101571298493@cloudbuild.gserviceaccount.com"
+      ],
+      "role": "roles/cloudbuild.builds.builder"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@gcp-sa-cloudbuild.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudbuild.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@gcf-admin-robot.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudfunctions.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@compute-system.iam.gserviceaccount.com"
+      ],
+      "role": "roles/compute.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@containerregistry.iam.gserviceaccount.com"
+      ],
+      "role": "roles/containerregistry.ServiceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@dataflow-service-producer-prod.iam.gserviceaccount.com"
+      ],
+      "role": "roles/dataflow.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:101571298493-compute@developer.gserviceaccount.com",
+        "serviceAccount:101571298493@cloudservices.gserviceaccount.com",
+        "serviceAccount:velvety-argon-309103@appspot.gserviceaccount.com",
+        "user:hyemi.sec@gmail.com"
+      ],
+      "role": "roles/viewer"
+    },
+    {
+      "members": [
+        "serviceAccount:service-101571298493@firebase-rules.iam.gserviceaccount.com"
+      ],
+      "role": "roles/firebaserules.system"
+    },
+    {
+      "members": [
+        "serviceAccount:my-service-account@velvety-argon-309103.iam.gserviceaccount.com",
+        "user:hyemi.thi@gmail.com"
+      ],
+      "role": "roles/owner"
+    }
+  ],
+  "etag": "BwXA7jV9wYU=",
+  "version": 1
+}
